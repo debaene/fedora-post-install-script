@@ -5,9 +5,11 @@ Furthermore, it will stop firewalld, setup iptables and ip6tables, configure the
 
 You can re-run it to install a new Java version and uninstall at the same time the old version or to reconfigure your firewall rules when they were messed up for some reason.
 
-usage:
+usage:...
   the script requires root privileges!  sudo will not work.
+  ```bash
+  # sh F2x-post-config-v2.0.18.sh
+  # sh F2x-post-config-v2.0.18.sh -1 -2 --debug
+  ```
   
-  \# sh F2x-post-config-v2.0.18.sh                -> shows all possible option
-  \# sh F2x-post-config-v2.0.18.sh -1 -2 --debug  -> shows what will be installed with option -1 and -2
   
